@@ -1,0 +1,22 @@
+html, body {
+  background: #56876D;
+  font-family: 'Playfair Display', serif, helvetica, arial;
+  font-size: 18px;
+  color: #000000;
+}
+
+p{
+  width:50%;
+  background: #BDBEA9
+  margin: 120 30 30 30px;
+  border: 30px solid transparent;
+  padding: 30px;
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  color: #000000;
+}
+
+h1{
+  border-bottom: 2px solid #D2AB99;
+  padding: 20px 0 0;
+}

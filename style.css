@@ -47,6 +47,28 @@ ul{
   color: #000000;
 }
 
+a:link {
+  color: #BDBEA9;
+}
+
+a:visited {
+  color: #BDBEA9;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BDBEA9;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #04724D;
+}
+
+a:active {
+  color: #04724D;
+}
+
 #portfolio{
   margin: 20px 200px 30px 200px;
   padding: 20px;

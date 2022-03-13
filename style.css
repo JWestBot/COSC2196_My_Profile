@@ -1,22 +1,70 @@
 html, body {
-  background: #56876D;
-  font-family: 'Playfair Display', serif, helvetica, arial;
+  background: #BDBEA9;
+  font-family: 'Manrope', sans-serif, helvetica, arial;
   font-size: 18px;
   color: #000000;
 }
 
-p{
-  width:50%;
-  background: #BDBEA9
-  margin: 120 30 30 30px;
-  border: 30px solid transparent;
-  padding: 30px;
+h1{
+  border-bottom: 0.5px solid #D2AB99;
+  padding: 10px 0 0;
   font-family: 'Playfair Display', serif;
-  font-size: 2em;
+  font-size: 32px;
+  color: #D2AB99;
+}
+
+h2{
+  border-bottom: 0 solid #D2AB99;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #D2AB99;
+}
+
+h3{
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  color: #000000
+}
+
+p{
+  margin: 30px;
+  border: 30px solid transparent;
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
   color: #000000;
 }
 
-h1{
-  border-bottom: 2px solid #D2AB99;
-  padding: 20px 0 0;
+ul{
+  width:50%;
+  margin: 0px 30px 0px 30px;
+  border: 0px solid transparent;
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #000000;
 }
+
+#portfolio{
+  margin: 20px 200px 30px 200px;
+  padding: 20px;
+  background: #56876D;
+  width:75%;
+}
+#header{}
+#headerTitle{}
+#profilePic{
+  float: right;
+  padding: 30px;
+}
+#headerContact{}
+#mainArea{}
+#mainArea h1{}
+#sectionTitle{}
+#sectionContent{}
+  #sectionPic{
+    float: right;
+    padding: 30px;
+  }

@@ -93,7 +93,7 @@
         <div class="sectionTitle"><h1>Personal Profile</h1></div>
           <div class="sectionContent">
             <div id="sectionPic">
-              <img src="images/personalities_defender.png" alt="Myers Briggs Personality Test Results."/>
+              <img src="images/personalities_defender.png" alt="Myers Briggs Personality Test Results." style="width:80%; height:auto;"/>
             </div>
             <article>
               <h2>Results</h2>
@@ -126,8 +126,51 @@
                 <a href="https://fundsquire.com.au/business-startup-statistics-australia/#:~:text=Between%20FY%2018%2D19%3A,market%2C%20making%20up%20293%2C260%20exits." target="_blank">FundSquire</a> reports that for the 2018-19 financial year Small and Medium Enterprises (SMEs) provided almost half of Australia’s employment, in that same period 355,722 new businesses entered the market, 293,260 businesses exited the market leaving a net growth of 62,462 new businesses for the period. The Australian Bureau of Statistics reports that more than 60 percent of small businesses stop their operation with the first three years of their startup journey, 29% fail because they run out of cash, 18% fail because of pricing and cost issues, 17% fail because they lack a business model, 14% fail because of poor marketing and 14% fail because they ignored their customers. Founder CRM can help by reducing costs as the initial offering will be offered free of charge to startups, it can also help in the areas of business modelling, marketing and customer service by providing the startup with business insight and oversight of their business leads and sales pipeline. Having worked with various CRMs for many years, I’m a passionate advocate for their implementation in any business setting, especially in a startups formative years.
                 </p>
                 <h3>Description</h3>
-                <h3>Skills Requried</h3>
+                <p>
+                In Phase 1, Founder CRM will feature a JavaScript web application as the front-end user interface and an SQL relational database to store the user entered data. As the target market for the CRM is startups and new businesses the CRM will not have mass data import functionality out of the box, instead it will focus on providing an application that can handle user input of data only. The front-end interface of the application will have a home page and a page for business leads (Seeds), organisations, contacts and opportunities as well as a settings page to set up products.
+                <br>
+                <br>
+                <img src="images/Founder CRM Data Structure Diagram.png" alt="CRM Data Structure Diagram." style="width:100%; height:auto;"/>
+
+
+                <b>Seed</b>
+                <br>
+                A business lead will be referred to as a Seed. A Seed can be in 4 different states, 'New' for a newly user entered lead; 'Cultivate' for leads that have been responsive; 'Dormant' for leads that are no longer being pursued and are considered closed but could be opened up at a later date; 'Connected' for leads that have a confirmed interest in the startups products/services, upon reaching this state the Seed will create an Organisation, Contact and an Opportunity. The Seed can be matched to existing Organisations and Contacts in the database to prevent duplication of data via a lookup function.  The Seeds page will show a list of all Seed records in the database, by default it will show only Seeds with a status of New or Cultivate, however there will be a filter function available to either show all Seeds in any state or focus in on a state of the users choosing. The Seeds page will also include a button to create a new Seed record and a button to delete a Seed record.
+                <br>
+                <br>
+                <b>Organisation, Contact</b>
+                <br>
+                The Organisations and Contacts pages will show lists of records in the database.
+                <br>
+                <br>
+                <b>Opportunity</b>
+                <br>
+                An Opportunity can be in 5 different states, ‘New’ for a newly connected opportunity; ‘Scoping’ for an opportunity that is currently being researched and explored; ‘Pitching’ for an opportunity that is fully formed and being pitched to the organisation; ‘Won’ for an opportunity that has been successful; ‘Lost’ for an opportunity that has been unsuccesful. The Opportunities page will show a list of all Opportunity records in the database, by default it will show only Opportunities with a status of New, Scoping or Pitching, however there will a filter function available to either show all Opportunities in any state or focus in on a state of the users choosing. The Opportunity can include products or services from the Product list.
+                <br>
+                <br>
+                <b>Product</b>
+                <br>
+                Products can be added by the user in the Settings section of the application. A product could be a product or a service and will include a price per unit (can be zero for non-financial products or services) and GST.
+                <br>
+                <br>
+                <b>Home</b>
+                <br>
+                The home page will feature a simple dashboard that will show the total Open Seeds (New, Cultivate), Dormant Seeds, Connected Seeds and the total Open Opportunities (New, Scoping, Pitching), Won Opportunities, Lost Opportunities.
+                <br>
+                <br>
+                Phase 2 would explore additional functionality such as an import/export data function, Microsoft Outlook API Integration using Microsoft Developer Console, web-to-seed integration capability with e-commerce websites, a Native Report function and data visualisation through standard dashboards.
+                </p>
+                <h3>Tools and Technologies</h3>
+                <p>
+                Building the front-end application written in JavaScript and the SQL relational database would require an open sourced text and source code editor such as Atom, with the ‘data-atom’ package installed, and a tool such as GitHub for collaboration with the development team. Once the application source code has been built engaging a Private Cloud provider to host data may be required. Office 365 would be required to create a business and marketing plan. The marketing plan may include the need for an e-marketing platform such as mail-chimp. A website for marketing purposes would also need to be built, this could be built using the same open sourced text and source code editor and GitHub, the Private Cloud provider may also be able to provide a hosting service for the website.
+                <h3>Skills Required</h3>
+                <p>
+                The project may require the services of a full-stack developer or a team of developers that could cover front-end, back-end and database development. A UX developer may be needed to ensure the application is being created with the user experience in mind. A cloud architect may need to be consulted to ensure the data can be safely housed and accessed in the cloud. A cyber security analyst may need to be consulted to ensure data is secure. A marketing specialist may be required to advise on the marketability of the project, the building and delivery of a marketing and communications plan, they may also be able to contribute to the website built. Finding individuals with these skills might be difficult, learning the skills may be a possibility over many years, engaging with specialist consultants in each of these areas would be costly. If the project was to engage a startup incubator such as RMIT Activator and was successful in entering the LaunchHub program, the project could gain access to people with the skills that could assist in bringing the project to life.
+                </p>
                 <h3>Outcome</h3>
+                <p>
+                A successful outcome would be a working open source CRM product built on the foundations of a solid and well thought out business, marketing and communications plans ready to launch to market with an e-commerce website. It will provide Australian startups with a simple to use, functioning CRM to manage their sales pipeline without the burden of an expensive CRM that may provide more functionality than what is required in the early stages of a startup.
+                </p>
             </article>
           </div>
       </section>
